@@ -1,0 +1,18 @@
+{
+  "name": "storagewrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc index.ts && nodemon index.js"
+  },
+  "author": "Parimal",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^10.12.24",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
